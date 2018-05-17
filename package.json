@@ -1,0 +1,28 @@
+{
+  "name": "bestradio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabadji/bestradio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rabadji/bestradio/issues"
+  },
+  "homepage": "https://github.com/Rabadji/bestradio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "forever": "^0.15.3",
+    "mongodb": "^2.2.33",
+    "mongood": "0.0.5",
+    "nodemon": "^1.17.3"
+  }
+}
